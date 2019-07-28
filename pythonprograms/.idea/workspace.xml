@@ -37,7 +37,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.ComparisionOperator">
+  <component name="RunManager" selected="Python.ComparisionOperator_4">
     <configuration name="BooleanOperator (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pythonprograms" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -59,27 +59,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="BooleanOperator" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="pythonprograms" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/boolean" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/boolean/BooleanOperator.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="ComparisionOperator" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pythonprograms" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -92,7 +71,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/operators/ComparisionOperator.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/operators/ComparisionOperator_1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -101,7 +80,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ControlFlow_1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="ComparisionOperator_2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pythonprograms" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -109,11 +88,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/controlflow" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/operators" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/controlflow/ControlFlow_1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/operators/ComparisionOperator_2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -122,7 +101,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ControlFlow_2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="ComparisionOperator_3" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pythonprograms" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -130,11 +109,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/controlflow" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/operators" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/controlflow/ControlFlow_2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/operators/ComparisionOperator_3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ComparisionOperator_4" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="pythonprograms" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/operators" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/operators/ComparisionOperator_4.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -145,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.ComparisionOperator_4" />
+        <item itemvalue="Python.ComparisionOperator_3" />
+        <item itemvalue="Python.ComparisionOperator_2" />
         <item itemvalue="Python.ComparisionOperator" />
         <item itemvalue="Python.BooleanOperator (1)" />
-        <item itemvalue="Python.BooleanOperator" />
-        <item itemvalue="Python.ControlFlow_2" />
-        <item itemvalue="Python.ControlFlow_1" />
       </list>
     </recent_temporary>
   </component>
