@@ -37,8 +37,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.ComparisionOperator_4">
-    <configuration name="BooleanOperator (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.Loop_on_the_list_PyStyle">
+    <configuration name="ForLoop_3" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pythonprograms" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -46,11 +46,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/operators" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/loop" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/operators/BooleanOperator.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/loop/ForLoop_3.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -59,7 +59,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ComparisionOperator" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="ForLoop_4" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pythonprograms" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -67,11 +67,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/operators" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/loop" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/operators/ComparisionOperator_1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/loop/ForLoop_4.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -80,7 +80,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ComparisionOperator_2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Loop_on_the_list" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pythonprograms" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -88,11 +88,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/operators" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/loop" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/operators/ComparisionOperator_2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/loop/Loop_on_the_list_for.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -101,7 +101,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ComparisionOperator_3" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Loop_on_the_list_PyStyle" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pythonprograms" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -109,11 +109,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/operators" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/loop" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/operators/ComparisionOperator_3.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/loop/Loop_on_the_list_PythonStyle.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -122,7 +122,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ComparisionOperator_4" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Loop_on_the_list_while" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pythonprograms" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -130,11 +130,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/operators" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/loop" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/operators/ComparisionOperator_4.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/loop/Loop_on_the_list_while.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -145,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.ComparisionOperator_4" />
-        <item itemvalue="Python.ComparisionOperator_3" />
-        <item itemvalue="Python.ComparisionOperator_2" />
-        <item itemvalue="Python.ComparisionOperator" />
-        <item itemvalue="Python.BooleanOperator (1)" />
+        <item itemvalue="Python.Loop_on_the_list_PyStyle" />
+        <item itemvalue="Python.Loop_on_the_list_while" />
+        <item itemvalue="Python.Loop_on_the_list" />
+        <item itemvalue="Python.ForLoop_4" />
+        <item itemvalue="Python.ForLoop_3" />
       </list>
     </recent_temporary>
   </component>
