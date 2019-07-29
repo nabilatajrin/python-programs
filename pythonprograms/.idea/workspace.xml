@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="430b3424-a6a3-41f3-8b28-17b3d595d8d7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../rename_file/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rename_file/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rename_file/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rename_file/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rename_file/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rename_file/.idea/rename_file.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rename_file/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rename_file/1.ppm.bz2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rename_file/Main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../move_file/.idea/move_file.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../move_file/Main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
