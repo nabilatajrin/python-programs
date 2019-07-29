@@ -3,7 +3,7 @@ import os
 # Function to move files
 def main():
 
-    src = '/media/iit/R a i n/2019/Intelligent Machines Ltd/face-propagation/dummy-data-set/colorferet/colorferet/dvd1/data/images'
+    src = '/media/iit/R a i n/2019/Intelligent Machines Ltd/face-propagation/dummy-data-set/colorferet/colorferet/dvd2/smaller'
     dst = '/media/iit/R a i n/2019/Intelligent Machines Ltd/face-propagation/dummy-data-set/colorferet/colorferet/dvd1/data/images/dstFolder_01/'
 
     for filename in os.listdir(src):
