@@ -2,14 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="430b3424-a6a3-41f3-8b28-17b3d595d8d7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../move_multiple_files/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../move_multiple_files/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../move_multiple_files/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../move_multiple_files/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../move_multiple_files/.idea/move_multiple_files.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../move_multiple_files/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../move_multiple_files/Main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../move_external_file/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../move_external_file/Main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />

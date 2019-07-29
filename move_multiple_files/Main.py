@@ -2,7 +2,7 @@ import os
 
 # Function to move files
 def main():
-    i = 1
+    #i = 1
 
     for filename in os.listdir("/media/iit/Workspace/test/multipleFiles/srcFolder"):
         #to rename file
