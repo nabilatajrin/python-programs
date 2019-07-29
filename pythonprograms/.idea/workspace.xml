@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="430b3424-a6a3-41f3-8b28-17b3d595d8d7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/library_functions/LibraryFunctions_1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/library_functions/LibraryFunctions_2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/library_functions/LibraryFunctions_3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inheritance/Inheritance_1.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -49,8 +46,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Objetcs_2">
-    <configuration name="LibraryFunctions_1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.Inheritance_1">
+    <configuration name="Inheritance_1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pythonprograms" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -58,11 +55,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/library_functions" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/inheritance" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/library_functions/LibraryFunctions_1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/inheritance/Inheritance_1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -157,11 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Inheritance_1" />
         <item itemvalue="Python.Objetcs_2" />
         <item itemvalue="Python.Objects_1" />
         <item itemvalue="Python.LibraryFunctions_3" />
         <item itemvalue="Python.LibraryFunctions_2" />
-        <item itemvalue="Python.LibraryFunctions_1" />
       </list>
     </recent_temporary>
   </component>
