@@ -3,21 +3,20 @@ import os
 # Function to move files
 def main():
 
-    for filename in os.listdir("/media/iit/Workspace/test/multipleSrc"):
+    src = '/media/iit/Workspace/test/multipleSrc'
+    dst = '/media/iit/Workspace/test/multipleSrc/dstFolder'
+
+    for filename in os.listdir(src):
         print(filename)
 
-        i = 1
-        for filename2 in os.listdir("/media/iit/Workspace/test/multipleSrc/" + filename):
+        for filename2 in os.listdir(src + "/" + filename):
             print(filename2)
 
-           #file = str(i) + ".ppm.bz2"
-            src = '/media/iit/Workspace/test/multipleSrc/' + filename + '/' + filename2
-            dst = '/media/iit/Workspace/test/multipleSrc/dstFolder/' + filename2
+            srcFolder = src + '/' + filename + '/' + filename2
+            dstFolder = dst + '/' + filename2
 
             # move all the files
-            os.rename(src, dst)
-
-            i += 1
+            os.rename(srcFolder, dstFolder)
 
 # Driver Code
 if __name__ == '__main__':
