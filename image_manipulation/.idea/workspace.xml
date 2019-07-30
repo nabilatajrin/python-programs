@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0143f197-26c6-462a-be4d-64ec56e8abd8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/treepic.ppm" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConvertImageType.py" beforeDir="false" afterPath="$PROJECT_DIR$/ConvertImageType.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MergeImage.py" beforeDir="false" afterPath="$PROJECT_DIR$/MergeImage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/treepic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/merge_image/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/merge_image1.jpg" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,7 +43,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.ConvertImageType">
+  <component name="RunManager" selected="Python.MergeImage">
     <configuration name="ConvertImageType" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="image_manipulation" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -110,9 +109,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.ConvertImageType" />
-        <item itemvalue="Python.ResizeImage" />
         <item itemvalue="Python.MergeImage" />
+        <item itemvalue="Python.ResizeImage" />
+        <item itemvalue="Python.ConvertImageType" />
       </list>
     </recent_temporary>
   </component>
