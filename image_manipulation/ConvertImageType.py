@@ -5,12 +5,16 @@ src = '/media/iit/R a i n/2019/ML/pythonprojects/image_manipulation'
 
 #convert and save image in different directory
 for filename in os.listdir(src):
-    if filename.endswith('.jpg'):
-        print (filename)
+    print(filename)
+
+    if filename.endswith('.ppm'):
+        print(filename)
+        image1 = Image.open(filename)
+        # image1.show(filename)
+        # image1.save('test.png')
+
+        fn, fext = os.path.splitext(filename)
+        print(fext)
+        image1.save('pngs/{}.png'.format(fn))
 
 
-image1 = Image.open('test.ppm')
-image2 = Image.open('treepic.jpg')
-image1.show()
-image2.show()
-image1.save('test.png')
