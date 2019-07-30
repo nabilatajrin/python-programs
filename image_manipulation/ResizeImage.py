@@ -3,7 +3,7 @@ import os
 
 path = "/media/iit/R a i n/2019/ML/pythonprojects/image_manipulation/pngs/"
 output="/media/iit/R a i n/2019/ML/pythonprojects/image_manipulation/256/"
-dirs = os.listdir( path )
+dirs = os.listdir(path)
 
 def resizeto256():
     for item in dirs:

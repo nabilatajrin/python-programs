@@ -45,7 +45,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.MergeImage">
+  <component name="RunManager" selected="Python.ResizeImage">
     <configuration name="ConvertImageType" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="image_manipulation" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -111,8 +111,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.MergeImage" />
         <item itemvalue="Python.ResizeImage" />
+        <item itemvalue="Python.MergeImage" />
         <item itemvalue="Python.ConvertImageType" />
       </list>
     </recent_temporary>

@@ -6,8 +6,6 @@ out = "/media/iit/R a i n/2019/ML/pythonprojects/image_manipulation/merge_image/
 dirs = os.listdir(path)
 images = list(map(Image.open, [(path + i) for i in dirs]))
 
-# widths, heights = zip(*(i.size for i in images))
-
 total_width = 512
 max_height = 256
 
@@ -16,8 +14,8 @@ new_im = Image.new('RGB', (total_width, max_height))
 x_offset = 0
 i = 0
 j = 0
-for im in images:
 
+for im in images:
     new_im.paste(im, (x_offset, 0))
     x_offset += im.size[0]
     i += 1
