@@ -3,11 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="0143f197-26c6-462a-be4d-64ec56e8abd8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConvertImageType.py" beforeDir="false" afterPath="$PROJECT_DIR$/ConvertImageType.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/256/test.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/256/treepic.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/MergeImage.py" beforeDir="false" afterPath="$PROJECT_DIR$/MergeImage.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ResizeImage.py" beforeDir="false" afterPath="$PROJECT_DIR$/ResizeImage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/treepic.ppm" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

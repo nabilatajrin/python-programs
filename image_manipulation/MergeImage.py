@@ -1,10 +1,10 @@
 from PIL import Image
 import os
 
-path = "/media/iit/R a i n/2019/ML/pythonprojects/image_manipulation/256/"
-out = "/media/iit/R a i n/2019/ML/pythonprojects/image_manipulation/merge_image/"
-dirs = os.listdir(path)
-images = list(map(Image.open, [(path + i) for i in dirs]))
+srcPath = "/media/iit/R a i n/2019/ML/pythonprojects/image_manipulation/256/"
+dstPath = "/media/iit/R a i n/2019/ML/pythonprojects/image_manipulation/merge_image/"
+dirs = os.listdir(srcPath)
+images = list(map(Image.open, [(srcPath + i) for i in dirs]))
 
 total_width = 512
 max_height = 256
@@ -22,6 +22,6 @@ for im in images:
     if (i % 2 == 0):
         j += 1
         x_offset = 0
-        new_im.save(out + str(j) + '.jpg')
+        new_im.save(dstPath + str(j) + '.jpg')
         new_im.show()
 
