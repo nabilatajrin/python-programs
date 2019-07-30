@@ -4,6 +4,7 @@ import os
 srcPath = "/media/iit/R a i n/2019/ML/pythonprojects/image_manipulation/256/"
 dstPath = "/media/iit/R a i n/2019/ML/pythonprojects/image_manipulation/merge_image/"
 dirs = os.listdir(srcPath)
+
 images = list(map(Image.open, [(srcPath + i) for i in dirs]))
 
 total_width = 512

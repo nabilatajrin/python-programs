@@ -1,22 +1,27 @@
 from PIL import Image
 import os
 
-src = '/media/iit/R a i n/2019/ML/pythonprojects/image_manipulation'
+srcPath = '/media/iit/R a i n/2019/ML/pythonprojects/image_manipulation'
+dstPath = '/media/iit/R a i n/2019/ML/pythonprojects/image_manipulation/pngs/'
 
 #convert and save image in different directory
-for filename in os.listdir(src):
-    print(filename)
-
-    if filename.endswith('.ppm'):
+def convertImage():
+    for filename in os.listdir(srcPath):
         print(filename)
-        image1 = Image.open(filename)
-        # image1.show(filename)
-        # image1.save('test.png')
 
-        #convert image extention to .png and save it to different folder
-        fn, fext = os.path.splitext(filename)
-        print(fext)
-        image1.save('pngs/{}.png'.format(fn))
+        if filename.endswith('.ppm'):
+            print(filename)
+            convertImage = Image.open(filename)
+            # convertImage.show(filename)
+            # convertImage.save('test.png')
+
+            #convert image extention to .png and save it to different folder
+            fn, fext = os.path.splitext(filename)
+            print(fext)
+            convertImage.save(dstPath + '{}.png'.format(fn))
+
+
+convertImage()
 
 
 
