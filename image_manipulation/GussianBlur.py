@@ -10,7 +10,7 @@ def gaussianBlur():
         if os.path.isfile(srcPath + item):
             im = Image.open(srcPath + item)
             file, e = os.path.splitext(dstPath + item)
-            imblur = im.filter(ImageFilter.GaussianBlur(15))
+            imblur = im.filter(ImageFilter.GaussianBlur(10))
             imblur.save(file + '.jpg', 'JPEG', quality = 90)
 
 gaussianBlur()
