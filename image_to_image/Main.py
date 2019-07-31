@@ -5,7 +5,7 @@ srcPath = '/media/iit/R a i n/2019/Intelligent Machines Ltd/face-propagation/dum
 dstPath = '/media/iit/R a i n/2019/Intelligent Machines Ltd/face-propagation/dummy-data-set/colorferet/colorferet/test_blur/dst_blur/'
 dirs = os.listdir(srcPath)
 
-#convert and save images in different directory
+#convert images to .jpg and save in a different directory
 def convertImageType():
     for item in dirs:
         if os.path.isfile(srcPath + item):
@@ -14,12 +14,10 @@ def convertImageType():
             #img.show(item)
 
             file, e = os.path.splitext(dstPath + item)
-            imblur = img.filter(ImageFilter.GaussianBlur(10))
-            #imblur.show(item)
-            imblur.save(file + '.jpg', 'JPEG', quality = 90)
-            #Image.open(item)
-            #convertImage = Image.open(item)
-            #convertImage.show(item)
+            img_blur = img.filter(ImageFilter.GaussianBlur(10))
+            img_blur.show(item)
+            img_blur.save(file + '.jpg', 'JPEG', quality = 90)
+
 
 
 convertImageType()
