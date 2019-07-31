@@ -15,8 +15,11 @@ def convertImageType():
 
             file, e = os.path.splitext(dstPath + item)
             img_blur = img.filter(ImageFilter.GaussianBlur(10))
-            img_blur.show(item)
-            img_blur.save(file + '.jpg', 'JPEG', quality = 90)
+            #img_blur.show(item)
+            img_Resize = img.resize((256, 256), Image.ANTIALIAS)
+            blur_img_resize = img_blur.resize((256, 256), Image.ANTIALIAS)
+            img_Resize.save(file + '.jpg', 'JPEG', quality = 90)
+            blur_img_resize.save(file + '_blur.jpg', 'JPEG', quality = 90)
 
 
 
