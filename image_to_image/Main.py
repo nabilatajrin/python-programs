@@ -10,6 +10,11 @@ def convertImageType():
     for item in dirs:
         if os.path.isfile(srcPath + item):
             print(item)
+            convertImage = Image.open(srcPath + item)
+            convertImage.show(item)
+            #Image.open(item)
+            #convertImage = Image.open(item)
+            #convertImage.show(item)
 
 
 
