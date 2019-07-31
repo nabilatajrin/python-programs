@@ -1,30 +1,30 @@
-# convert and save images in different directory
-def convertImageType():
-    for item in dirs:
-        if os.path.isfile(srcPath + item):
-            print(item)
+from PIL import Image
+import os
 
-            if item.endswith('.ppm'):
-                print(item)
-                convertImage = Image.open(item)
-                # convertImage.show(filename)
-                # convertImage.save('test.png')
+srcPath = "/media/iit/R a i n/2019/ML/pythonprojects/image_manipulation/256/"
+dstPath = "/media/iit/R a i n/2019/ML/pythonprojects/image_manipulation/merge_image/"
+dirs = os.listdir(srcPath)
+images = list(map(Image.open, [(srcPath + i) for i in dirs]))
 
-                # convert images to .png and save it to different folder
-                fn, fext = os.path.splitext(item)
-                print(fext)
-                convertImage.save(dstPath + '{}.jpg'.format(fn))
+def mergeImage():
+    total_width = 512
+    max_height = 256
 
+    new_im = Image.new('RGB', (total_width, max_height))
 
-convertImageType()
+    x_offset = 0
+    i = 0
+    j = 0
 
-#test
-def gaussianBlur():
-    for item in dirs:
-        if os.path.isfile(srcPath + item):
-            im = Image.open(srcPath + item)
-            file, e = os.path.splitext(dstPath + item)
-            imblur = im.filter(ImageFilter.GaussianBlur(10))
-            imblur.save(file + '.jpg', 'JPEG', quality = 90)
+    for im in images:
+        new_im.paste(im, (x_offset, 0))
+        x_offset += im.size[0]
+        i += 1
+        if (i % 2 == 0):
+            j += 1
+            x_offset = 0
+            new_im.save(dstPath + str(j) + '.jpg')
+            new_im.show()
 
-gaussianBlur()
+mergeImage()
+
