@@ -4,7 +4,7 @@ import os
 srcPath = '/media/iit/R a i n/2019/ML/pythonprojects/image_manipulation'
 dstPath = '/media/iit/R a i n/2019/ML/pythonprojects/image_manipulation/pngs/'
 
-#convert and save image in different directory
+#convert and save images in different directory
 def convertImage():
     for filename in os.listdir(srcPath):
         print(filename)
@@ -15,11 +15,10 @@ def convertImage():
             # convertImage.show(filename)
             # convertImage.save('test.png')
 
-            #convert image extention to .png and save it to different folder
+            #convert images to .png and save it to different folder
             fn, fext = os.path.splitext(filename)
             print(fext)
             convertImage.save(dstPath + '{}.png'.format(fn))
-
 
 convertImage()
 
