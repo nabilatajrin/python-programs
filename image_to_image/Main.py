@@ -1,4 +1,4 @@
-from PIL import Image
+from PIL import Image, ImageFilter
 import os
 
 srcPath = '/media/iit/R a i n/2019/Intelligent Machines Ltd/face-propagation/dummy-data-set/colorferet/colorferet/test_blur/src_blur/'
@@ -10,12 +10,16 @@ def convertImageType():
     for item in dirs:
         if os.path.isfile(srcPath + item):
             print(item)
-            convertImage = Image.open(srcPath + item)
-            convertImage.show(item)
+            img = Image.open(srcPath + item)
+            #img.show(item)
+
+            file, e = os.path.splitext(dstPath + item)
+            imblur = img.filter(ImageFilter.GaussianBlur(10))
+            #imblur.show(item)
+            imblur.save(file + '.jpg', 'JPEG', quality = 90)
             #Image.open(item)
             #convertImage = Image.open(item)
             #convertImage.show(item)
-
 
 
 convertImageType()
