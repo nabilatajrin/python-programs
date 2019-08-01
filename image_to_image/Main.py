@@ -6,7 +6,7 @@ dstPath = '/media/iit/R a i n/2019/Intelligent Machines Ltd/face-propagation/dum
 dirs = os.listdir(srcPath)
 
 #convert images to .jpg and save in a different directory
-def convertImageType():
+def image_to_image():
     for item in dirs:
         if os.path.isfile(srcPath + item):
             print(item)
@@ -14,14 +14,16 @@ def convertImageType():
             #img.show(item)
 
             file, e = os.path.splitext(dstPath + item)
-            img_blur = img.filter(ImageFilter.GaussianBlur(15))
+            img_blur = img.filter(ImageFilter.GaussianBlur(10))
+            # multiply each pixel by 2.2, (e.g. image contrast manipulation)
+            #out = img.point(lambda i: i * 2.2)
             #img_blur.show(item)
             img_Resize = img.resize((256, 256), Image.ANTIALIAS)
             blur_img_resize = img_blur.resize((256, 256), Image.ANTIALIAS)
             img_Resize.save(file + '.jpg', 'JPEG', quality = 90)
             blur_img_resize.save(file + '_blur.jpg', 'JPEG', quality = 100)
 
-convertImageType()
+image_to_image()
 
 dstPath = "/media/iit/R a i n/2019/Intelligent Machines Ltd/face-propagation/dummy-data-set/colorferet/colorferet/test_blur/dst_blur/"
 mrgPath = "/media/iit/R a i n/2019/Intelligent Machines Ltd/face-propagation/dummy-data-set/colorferet/colorferet/test_blur/dst_mrg/"

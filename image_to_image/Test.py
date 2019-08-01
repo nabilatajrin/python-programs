@@ -1,30 +1,30 @@
-from PIL import Image
-import os
+# For this tutorial series you only need python scipy and matplotlib to display image
+from scipy import misc
+import numpy as np
 
-srcPath = "/media/iit/R a i n/2019/ML/pythonprojects/image_manipulation/256/"
-dstPath = "/media/iit/R a i n/2019/ML/pythonprojects/image_manipulation/merge_image/"
-dirs = os.listdir(srcPath)
-images = list(map(Image.open, [(srcPath + i) for i in dirs]))
+# 0. Read the image
+image  = misc.imread('lena.png',mode="L")
 
-def mergeImage():
-    total_width = 512
-    max_height = 256
+# 1. Add noises to the image
+noisy1 = image + 3 * image.std() * np.random.random(image.shape)
 
-    new_im = Image.new('RGB', (total_width, max_height))
+alot  = 2 * image.max() * np.random.random(image.shape)
+noisy2 = image + alot
 
-    x_offset = 0
-    i = 0
-    j = 0
+# 2. Plot the noisy image
+import matplotlib.pyplot as plt
+f, axarr = plt.subplots(2, 2)
+axarr[0, 0].imshow(image,cmap = plt.get_cmap('gray'))
+axarr[0, 0].set_title('Image gray')
 
-    for im in images:
-        new_im.paste(im, (x_offset, 0))
-        x_offset += im.size[0]
-        i += 1
-        if (i % 2 == 0):
-            j += 1
-            x_offset = 0
-            new_im.save(dstPath + str(j) + '.jpg')
-            new_im.show()
+axarr[0, 1].imshow(noisy1,cmap = plt.get_cmap('gray'))
+axarr[0, 1].set_title('Image noise 1')
 
-mergeImage()
+axarr[1, 0].imshow(noisy2,cmap = plt.get_cmap('gray'))
+axarr[1, 0].set_title('Image noise 2')
 
+axarr[1, 1].imshow(alot,cmap = plt.get_cmap('gray'))
+axarr[1, 1].set_title('Added Noise')
+
+
+plt.show() 
