@@ -1,30 +1,22 @@
-# For this tutorial series you only need python scipy and matplotlib to display image
-from scipy import misc
+import cv2
 import numpy as np
 
-# 0. Read the image
-image  = misc.imread('lena.png',mode="L")
+img = cv2.imread('/media/iit/R a i n/2019/Intelligent Machines Ltd/face-propagation/dummy-data-set/colorferet/colorferet/test_blur/src_blur/00002_940128_fa.ppm')
+cv2.imshow('Original', img)
 
-# 1. Add noises to the image
-noisy1 = image + 3 * image.std() * np.random.random(image.shape)
+size = 15
 
-alot  = 2 * image.max() * np.random.random(image.shape)
-noisy2 = image + alot
+# generating the kernel
+kernel_motion_blur = np.zeros((size, size))
+kernel_motion_blur[int((size-1)/2), :] = np.ones(size)
+kernel_motion_blur = kernel_motion_blur / size
 
-# 2. Plot the noisy image
-import matplotlib.pyplot as plt
-f, axarr = plt.subplots(2, 2)
-axarr[0, 0].imshow(image,cmap = plt.get_cmap('gray'))
-axarr[0, 0].set_title('Image gray')
+# applying the kernel to the input image
+output = cv2.filter2D(img, -1, kernel_motion_blur)
 
-axarr[0, 1].imshow(noisy1,cmap = plt.get_cmap('gray'))
-axarr[0, 1].set_title('Image noise 1')
+cv2.imshow('Motion Blur', output)
+cv2.waitKey(0)
 
-axarr[1, 0].imshow(noisy2,cmap = plt.get_cmap('gray'))
-axarr[1, 0].set_title('Image noise 2')
+dstPath = "/media/iit/R a i n/2019/Intelligent Machines Ltd/face-propagation/dummy-data-set/colorferet/colorferet/test_blur/motion_blur/"
 
-axarr[1, 1].imshow(alot,cmap = plt.get_cmap('gray'))
-axarr[1, 1].set_title('Added Noise')
-
-
-plt.show() 
+cv2.output.save(dstPath + '.jpg', 'JPEG', quality = 90)
