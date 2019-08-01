@@ -2,46 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0143f197-26c6-462a-be4d-64ec56e8abd8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../image_to_image/MotionBlurMerge.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../image_to_image/venv/lib/python3.5/site-packages/cv2/.libs/libQtCore-3dbacd8a.so.4.8.7" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../image_to_image/venv/lib/python3.5/site-packages/cv2/.libs/libQtGui-6d0f14dd.so.4.8.7" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../image_to_image/venv/lib/python3.5/site-packages/cv2/.libs/libQtTest-1183da5d.so.4.8.7" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../image_to_image/venv/lib/python3.5/site-packages/cv2/.libs/libavcodec-874f3d51.so.58.47.106" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../image_to_image/venv/lib/python3.5/site-packages/cv2/.libs/libavformat-fb41c63f.so.58.26.101" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../image_to_image/venv/lib/python3.5/site-packages/cv2/.libs/libavutil-473e9eb1.so.56.26.100" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../image_to_image/venv/lib/python3.5/site-packages/cv2/.libs/libswresample-a49c020a.so.3.4.100" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../image_to_image/venv/lib/python3.5/site-packages/cv2/.libs/libswscale-4e6f4703.so.5.4.100" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../image_to_image/venv/lib/python3.5/site-packages/cv2/.libs/libvpx-8459aeef.so.6.0.0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../image_to_image/venv/lib/python3.5/site-packages/cv2/.libs/libz-a147dcb0.so.1.2.3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../image_to_image/venv/lib/python3.5/site-packages/cv2/LICENSE-3RD-PARTY.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../image_to_image/venv/lib/python3.5/site-packages/cv2/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../image_to_image/venv/lib/python3.5/site-packages/cv2/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../image_to_image/venv/lib/python3.5/site-packages/cv2/cv2.cpython-35m-x86_64-linux-gnu.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../image_to_image/venv/lib/python3.5/site-packages/cv2/data/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../image_to_image/venv/lib/python3.5/site-packages/cv2/data/haarcascade_eye.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../image_to_image/venv/lib/python3.5/site-packages/cv2/data/haarcascade_eye_tree_eyeglasses.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../image_to_image/venv/lib/python3.5/site-packages/cv2/data/haarcascade_frontalcatface.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../image_to_image/venv/lib/python3.5/site-packages/cv2/data/haarcascade_frontalcatface_extended.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../image_to_image/venv/lib/python3.5/site-packages/cv2/data/haarcascade_frontalface_alt.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../image_to_image/venv/lib/python3.5/site-packages/cv2/data/haarcascade_frontalface_alt2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../image_to_image/venv/lib/python3.5/site-packages/cv2/data/haarcascade_frontalface_alt_tree.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../image_to_image/venv/lib/python3.5/site-packages/cv2/data/haarcascade_frontalface_default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../image_to_image/venv/lib/python3.5/site-packages/cv2/data/haarcascade_fullbody.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../image_to_image/venv/lib/python3.5/site-packages/cv2/data/haarcascade_lefteye_2splits.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../image_to_image/venv/lib/python3.5/site-packages/cv2/data/haarcascade_licence_plate_rus_16stages.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../image_to_image/venv/lib/python3.5/site-packages/cv2/data/haarcascade_lowerbody.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../image_to_image/venv/lib/python3.5/site-packages/cv2/data/haarcascade_profileface.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../image_to_image/venv/lib/python3.5/site-packages/cv2/data/haarcascade_righteye_2splits.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../image_to_image/venv/lib/python3.5/site-packages/cv2/data/haarcascade_russian_plate_number.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../image_to_image/venv/lib/python3.5/site-packages/cv2/data/haarcascade_smile.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../image_to_image/venv/lib/python3.5/site-packages/cv2/data/haarcascade_upperbody.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../image_to_image/venv/lib/python3.5/site-packages/opencv_python-4.1.0.25.dist-info/INSTALLER" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../image_to_image/venv/lib/python3.5/site-packages/opencv_python-4.1.0.25.dist-info/METADATA" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../image_to_image/venv/lib/python3.5/site-packages/opencv_python-4.1.0.25.dist-info/RECORD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../image_to_image/venv/lib/python3.5/site-packages/opencv_python-4.1.0.25.dist-info/WHEEL" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../image_to_image/venv/lib/python3.5/site-packages/opencv_python-4.1.0.25.dist-info/top_level.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../image_to_image/Test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../image_to_image/Test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonprograms/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonprograms/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonprograms/break/Break_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonprograms/break/Break_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonprograms/continue/Continue.py" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonprograms/continue/Continue.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

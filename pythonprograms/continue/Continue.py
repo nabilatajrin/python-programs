@@ -1,7 +1,12 @@
 sum = 0
-for i in range(1, 100):
+for i in range(1, 10):
     if i % 2 == 0:
         continue
-    sum = sum + i
+    print("i = ", i)
 
-print (sum)
+    sum = sum + i
+    print("sum = ", sum)
+
+print(sum)
+
+print(1+3+5+7+9)
