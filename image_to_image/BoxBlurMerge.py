@@ -45,7 +45,7 @@ def mergeImage():
         if (i % 2 == 0):
             j += 1
             x_offset = 0
-            new_im.save(mrgPath + "box_blur" + str(j) + '.jpg')
+            new_im.save(mrgPath + "box_blur_" + str(j) + '.jpg')
             #new_im.show()
 
 mergeImage()

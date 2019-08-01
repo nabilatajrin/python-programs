@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0143f197-26c6-462a-be4d-64ec56e8abd8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../image_to_image/TestBlurMerge.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../image_to_image/EdgeEnhanceMerge.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../image_to_image/BoxBlurMerge.py" beforeDir="false" afterPath="$PROJECT_DIR$/../image_to_image/BoxBlurMerge.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
