@@ -2,7 +2,7 @@ from PIL import Image, ImageFilter
 import os
 
 srcPath = '/media/iit/R a i n/2019/Intelligent Machines Ltd/face-propagation/dummy-data-set/colorferet/colorferet/test_blur/src_blur/'
-dstPath = '/media/iit/R a i n/2019/Intelligent Machines Ltd/face-propagation/dummy-data-set/colorferet/colorferet/test_blur/dst_blur/'
+dstPath = '/media/iit/R a i n/2019/Intelligent Machines Ltd/face-propagation/dummy-data-set/colorferet/colorferet/test_blur/motion_blur/'
 dirs = os.listdir(srcPath)
 
 #convert images to .jpg and save in a different directory
@@ -25,8 +25,8 @@ def image_to_image():
 
 image_to_image()
 
-dstPath = "/media/iit/R a i n/2019/Intelligent Machines Ltd/face-propagation/dummy-data-set/colorferet/colorferet/test_blur/dst_blur/"
-mrgPath = "/media/iit/R a i n/2019/Intelligent Machines Ltd/face-propagation/dummy-data-set/colorferet/colorferet/test_blur/dst_mrg/"
+dstPath = "/media/iit/R a i n/2019/Intelligent Machines Ltd/face-propagation/dummy-data-set/colorferet/colorferet/test_blur/motion_blur/"
+mrgPath = "/media/iit/R a i n/2019/Intelligent Machines Ltd/face-propagation/dummy-data-set/colorferet/colorferet/test_blur/original_and_motion_mrg/"
 dirs2 = os.listdir(dstPath)
 images = list(map(Image.open, [(dstPath + i) for i in dirs2]))
 
