@@ -3,13 +3,13 @@ import sys
 import os
 
 class FaceCropper(object):
-    CASCADE_PATH = "data/haarcascades/haarcascade_frontalface_default.xml"
+    CASCADE_PATH = "/media/iit/R a i n/2019/ML/pythonprojects/3b.ppm"
 
     def __init__(self):
         self.face_cascade = cv2.CascadeClassifier(self.CASCADE_PATH)
 
     def generate(self, image_path, show_result):
-        img = cv2.imread(image_path)
+        img = cv2.imread("/media/iit/R a i n/2019/ML/pythonprojects/3b.ppm")
         if (img is None):
             print("Can't open image file")
             return 0
@@ -44,7 +44,6 @@ class FaceCropper(object):
             lastimg = cv2.resize(faceimg, (32, 32))
             i += 1
             cv2.imwrite("image%d.jpg" % i, lastimg)
-
 
 if __name__ == '__main__':
     args = sys.argv
