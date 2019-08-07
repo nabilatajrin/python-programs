@@ -2,14 +2,21 @@ import PIL
 from PIL import Image, ImageFilter
 import os
 
-srcPath = '/media/iit/R a i n/2019/Intelligent Machines Ltd/face-propagation/dummy-data-set/colorferet/colorferet/test_blur/src_blur/'
-dstPath = '/media/iit/R a i n/2019/Intelligent Machines Ltd/face-propagation/dummy-data-set/colorferet/colorferet/test_blur/box_blur/'
+srcPath = '/media/iit/Transcend/nabila/data-set/test/src/'
+dstPath = '/media/iit/Transcend/nabila/data-set/test/dst/'
 dirs = os.listdir(srcPath)
-
 
 # convert images to .jpg and save in a different directory
 def image_to_image():
+    #count = 4
     for item in dirs:
+        #print(count)
+        #count += 1
+        #if count <= 4:
+            #pass
+        #else:
+            #if count >= 7:
+             #   break
         try:
             if os.path.isfile(srcPath + item):
                 print(item)
@@ -24,18 +31,18 @@ def image_to_image():
                 blur_img_resize.save(file + '_blur.jpg', 'JPEG', quality=100)
         except:
             print("\n#######################This is an error message!\n")
-            pass
+            #pass
 
+#image_to_image()
 
-image_to_image()
-
-dstPath = "/media/iit/R a i n/2019/Intelligent Machines Ltd/face-propagation/dummy-data-set/colorferet/colorferet/test_blur/box_blur/"
-mrgPath = "/media/iit/R a i n/2019/Intelligent Machines Ltd/face-propagation/dummy-data-set/colorferet/colorferet/test_blur/original_and_box_blur_mrg/"
+dstPath = "/media/iit/Transcend/nabila/data-set/image_to_image/box_blur/"
+mrgPath = "/media/iit/Transcend/nabila/data-set/image_to_image/original_and_box_blur_mrg/"
 dirs2 = os.listdir(dstPath)
 images = list(map(Image.open, [(dstPath + i) for i in dirs2]))
 
 
 def mergeImage():
+    count = 1
     total_width = 512
     max_height = 256
 
@@ -46,6 +53,9 @@ def mergeImage():
     j = 0
 
     for im in images:
+        print(count)
+        count += 1
+
         new_im.paste(im, (x_offset, 0))
         x_offset += im.size[0]
         i += 1
@@ -54,6 +64,5 @@ def mergeImage():
             x_offset = 0
             new_im.save(mrgPath + "box_blur_" + str(j) + '.jpg')
             # new_im.show()
-
 
 mergeImage()
