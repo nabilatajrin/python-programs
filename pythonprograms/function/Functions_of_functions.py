@@ -9,6 +9,6 @@ def is_prime(x):
         print (x)
 
 
-for x in range(2, 101):
+for x in range(1, 10):
     if is_prime(x):
         print(x)
