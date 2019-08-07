@@ -1,4 +1,8 @@
 def square(x):
     return x * x
 
-print (square(9))
+def cube(x):
+    return x * x * x
+
+print ('square: ', square(9))
+print ('cube: ', cube(3))
