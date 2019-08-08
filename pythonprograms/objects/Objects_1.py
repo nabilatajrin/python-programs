@@ -8,6 +8,6 @@ class Calculator:
         return self.a + self.b
 
 c = Calculator()
-c.set(2, 2)
+c.set(2, 3)
 
 print (c.add())
