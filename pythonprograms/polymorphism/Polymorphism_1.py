@@ -12,18 +12,15 @@ class Cat(Pet):
     def talk(self):
         print (self.name + ": meow!")
 
-
 class Dog(Pet):
 
     def talk(self):
         print (self.name + ": hoof! hoof!")
 
-
 class Tiger(Pet):
 
     def talk(self):
         print (self.name + ": halum!")
-
 
 class Mouse(Pet):
 
