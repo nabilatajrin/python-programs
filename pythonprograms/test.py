@@ -1,17 +1,10 @@
-fruits = ["apple", "orange", "jambura", "banana", "mango", "cherry"]
+sum = 0
+for i in range(1, 10):
+    if i % 2 == 0:
+        continue
+    print("i = ", i)
 
-#print(fruits[0+1])
+    sum = sum + i
+    print("sum = ", sum)
 
-found = "no"
-
-for fruits in fruits:
-    if fruits == "jambura":
-        found = "yes"
-        print("found it!")
-        break
-
-if found == "yes":
-    print("we have jambura")
-else:
-    print("sorry")
-
+print(sum)
