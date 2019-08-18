@@ -1,2 +1,2 @@
 for i in range(1000):
-    print ("I promise, I will do homework everyday")
+    print (i, ":I promise, I will do homework everyday")
