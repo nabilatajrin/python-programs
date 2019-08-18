@@ -15,3 +15,5 @@ second.set(5, 12)
 
 print (first.add())
 print (second.add())
+
+print(first.add(), ",", second.add())

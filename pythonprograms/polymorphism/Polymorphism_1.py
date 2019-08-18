@@ -7,7 +7,7 @@ class Pet:
         pass
 
 
-class Cat(Pet):
+class Cat(Pet): #inheritance
 
     def talk(self):
         print (self.name + ": meow!")
@@ -30,10 +30,10 @@ class Mouse(Pet):
 
 cat = Cat("bilai")
 dog = Dog("kuttush")
-tiger = Tiger("bug")
+tiger = Tiger("bagh")
 mouse = Mouse("idur")
 
 cat.talk()
 dog.talk()
 tiger.talk()
-mouse.talk()
+#mouse.talk()

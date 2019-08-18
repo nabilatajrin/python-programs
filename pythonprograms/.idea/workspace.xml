@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="430b3424-a6a3-41f3-8b28-17b3d595d8d7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/loop/ForLoop_3.py" beforeDir="false" afterPath="$PROJECT_DIR$/loop/ForLoop_3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loop/ForLoop_4.py" beforeDir="false" afterPath="$PROJECT_DIR$/loop/ForLoop_4.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loop/Loop_on_the_list_while.py" beforeDir="false" afterPath="$PROJECT_DIR$/loop/Loop_on_the_list_while.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loop/WhileLoop.py" beforeDir="false" afterPath="$PROJECT_DIR$/loop/WhileLoop.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/objects/Objetcs_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/objects/Objetcs_2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/operators/ComparisionOperator_3.py" beforeDir="false" afterPath="$PROJECT_DIR$/operators/ComparisionOperator_3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/polymorphism/Polymorphism_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/polymorphism/Polymorphism_1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -49,8 +51,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Loop_on_the_list_while">
-    <configuration name="ForLoop_1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.test">
+    <configuration name="ComparisionOperator_3" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pythonprograms" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -58,11 +60,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/loop" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/operators" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/loop/ForLoop_1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/operators/ComparisionOperator_3.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -71,7 +73,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ForLoop_3" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Objetcs_2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pythonprograms" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -79,11 +81,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/loop" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/objects" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/loop/ForLoop_3.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/objects/Objetcs_2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -92,7 +94,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ForLoop_4" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Polymorphism_1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pythonprograms" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -100,11 +102,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/loop" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/polymorphism" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/loop/ForLoop_4.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/polymorphism/Polymorphism_1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -113,7 +115,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Loop_on_the_list_while" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="WhileLoop" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pythonprograms" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -125,7 +127,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/loop/Loop_on_the_list_while.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/loop/WhileLoop.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -157,11 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Loop_on_the_list_while" />
         <item itemvalue="Python.test" />
-        <item itemvalue="Python.ForLoop_4" />
-        <item itemvalue="Python.ForLoop_3" />
-        <item itemvalue="Python.ForLoop_1" />
+        <item itemvalue="Python.Polymorphism_1" />
+        <item itemvalue="Python.ComparisionOperator_3" />
+        <item itemvalue="Python.Objetcs_2" />
+        <item itemvalue="Python.WhileLoop" />
       </list>
     </recent_temporary>
   </component>
@@ -278,6 +280,31 @@
           <url>file://$PROJECT_DIR$/function/Functions_of_functions.py</url>
           <line>12</line>
           <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/polymorphism/Polymorphism_1.py</url>
+          <line>2</line>
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/polymorphism/Polymorphism_1.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/polymorphism/Polymorphism_1.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/polymorphism/Polymorphism_1.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="73" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/polymorphism/Polymorphism_1.py</url>
+          <line>16</line>
+          <option name="timeStamp" value="74" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
