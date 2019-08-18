@@ -9,6 +9,7 @@ def is_prime(x):
         print (x)
 
 
+#starts at 1
 for x in range(1, 10):
     if is_prime(x):
         print(x)

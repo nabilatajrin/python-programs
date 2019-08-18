@@ -1,10 +1,15 @@
-sum = 0
-for i in range(1, 10):
-    if i % 2 == 0:
-        continue
-    print("i = ", i)
+def is_prime(x):
+    isprime = 'yes'
 
-    sum = sum + i
-    print("sum = ", sum)
+    #rang is 2 to target value-1, is x is divisible by any of these then it's not prime
+    for i in range(2, x):
+        if x % i == 0:
+            isprime = 'no'
 
-print(sum)
+    if isprime == 'yes':
+        print(x)
+
+#range starts at 2
+for x in range(1, 10):
+    if is_prime(x):
+        print(x)
