@@ -1,26 +1,9 @@
-class Pet:
-    def __init__(self, name):
-        self.name = name
+a = 33
+b = 12
 
-    def talk(self):
-        pass
+while b != 0:
+    remainder = a % b
+    a = b
+    b = remainder
 
-class Cat(Pet):
-    def talk(self):
-        print(self.name + ": meow")
-
-class Dog(Pet):
-    def talk(self):
-        print(self.name + ": hoof hoof!")
-
-class Elephant(Pet):
-    def talk(self):
-        print(self.name + ": eeeeeee eeee")
-
-cat = Cat("bilai")
-dog = Dog("kuttush")
-elephant = Elephant("haati")
-
-cat.talk()
-dog.talk()
-elephant.talk()
+print(a)
