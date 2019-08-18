@@ -1,4 +1,4 @@
-for x in range(2, 101):
+for x in range(2, 11):
     isprime = "yes"
 
     for i in range(2, x):

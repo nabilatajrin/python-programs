@@ -1,15 +1,18 @@
-def is_prime(x):
-    isprime = 'yes'
+class Calculator:
+    def set(self, a, b):
+        self.a = a
+        self.b = b
 
-    #rang is 2 to target value-1, is x is divisible by any of these then it's not prime
-    for i in range(2, x):
-        if x % i == 0:
-            isprime = 'no'
+    def add(self):
+        return self.a + self.b
 
-    if isprime == 'yes':
-        print(x)
+#another class
+class NewCalculator(Calculator):
+    def multiply(self):
+        return self.a * self.b
 
-#range starts at 2
-for x in range(1, 10):
-    if is_prime(x):
-        print(x)
+c = NewCalculator()
+c.set(2, 3)
+
+print(c.add())
+print(c.multiply())
