@@ -1,5 +1,4 @@
 class Calculator:
-
     def set(self, a, b):
         self.a = a
         self.b = b
@@ -9,7 +8,6 @@ class Calculator:
 
 #inheritted class Calculator here
 class NewCalculator(Calculator):
-
     def multiply(self):
         return self.a * self.b
 

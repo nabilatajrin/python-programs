@@ -1,9 +1,3 @@
-for x in range(2, 10):
-    isprime = 'yes'
+fruits = ['apple', 'orange', 'mango']
 
-    for i in range(2, x):
-        if x % i == 0:
-            isprime = 'no'
-
-    if isprime == 'yes':
-        print(x)
+print(fruits[0])
