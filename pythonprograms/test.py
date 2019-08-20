@@ -1,3 +1,6 @@
-fruits = ['apple', 'orange', 'mango']
+#odd numbers
+i = 1
 
-print(fruits[0])
+while i < 10:
+    print(i)
+    i = i + 2

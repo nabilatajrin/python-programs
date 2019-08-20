@@ -1,2 +1,3 @@
-for i in range(6, 11):
-    print (i * i)
+for i in range(1, 11):
+    print(i, ": yes")
+    print ('squar:', i ** 2)
