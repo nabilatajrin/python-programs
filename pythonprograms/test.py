@@ -1,9 +1,8 @@
-a = 33
-b = 12
+fruits = ['apple', 'orange', 'banana',
+          'jambura']
 
-while b != 0:
-    remainder = a % b
-    a = b
-    b = remainder
+if 'jambura' in fruits:
+    print('we have jambura')
+else:
+    print('we dont have jambura')
 
-print(a)
