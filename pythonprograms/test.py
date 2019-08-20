@@ -1,8 +1,8 @@
-fruits = ['apple', 'orange', 'banana',
-          'jambura']
+def squar(x):
+    return x * x
 
-if 'jambura' in fruits:
-    print('we have jambura')
-else:
-    print('we dont have jambura')
+def cube(x):
+    return x * x * x
 
+print(squar(3))
+print(cube(2))

@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="430b3424-a6a3-41f3-8b28-17b3d595d8d7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/continue/Continue.py" beforeDir="false" afterPath="$PROJECT_DIR$/continue/Continue.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dictionary/Dictionary.py" beforeDir="false" afterPath="$PROJECT_DIR$/dictionary/Dictionary.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/function/Function_3.py" beforeDir="false" afterPath="$PROJECT_DIR$/function/Function_3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/function/Functions_of_functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/function/Functions_of_functions.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -47,7 +49,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Continue">
+  <component name="RunManager" selected="Python.Functions_of_functions">
     <configuration name="Continue" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pythonprograms" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -69,7 +71,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="PythonModules_1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Function_3" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pythonprograms" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -77,11 +79,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_modules" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/function" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_modules/PythonModules_1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/function/Function_3.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -90,7 +92,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Recursion_1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Functions_of_functions" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pythonprograms" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -98,11 +100,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/recursion" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/function" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/recursion/Recursion_1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/function/Functions_of_functions.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -155,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Continue" />
+        <item itemvalue="Python.Functions_of_functions" />
+        <item itemvalue="Python.Function_3" />
         <item itemvalue="Python.test" />
+        <item itemvalue="Python.Continue" />
         <item itemvalue="Python.Recursion_greatestCommonDivisor" />
-        <item itemvalue="Python.Recursion_1" />
-        <item itemvalue="Python.PythonModules_1" />
       </list>
     </recent_temporary>
   </component>
@@ -194,7 +196,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/function/Functions_of_functions.py</url>
-          <line>3</line>
+          <line>4</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -269,7 +271,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/function/Functions_of_functions.py</url>
-          <line>7</line>
+          <line>8</line>
           <option name="timeStamp" value="61" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">

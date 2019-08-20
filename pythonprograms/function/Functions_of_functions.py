@@ -1,3 +1,4 @@
+#prime numbers
 def is_prime(x):
     isprime = "yes"
 
@@ -7,7 +8,6 @@ def is_prime(x):
 
     if isprime == "yes":
         print (x)
-
 
 #starts at 1
 for x in range(1, 10):
