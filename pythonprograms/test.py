@@ -1,6 +1,4 @@
-#odd numbers
-i = 1
+fruits = ['aple', 'orange', 'banana', 'tango']
 
-while i < 10:
-    print(i)
-    i = i + 2
+for fruit in fruits:
+    print(fruit)

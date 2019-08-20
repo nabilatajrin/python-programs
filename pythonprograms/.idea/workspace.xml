@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="430b3424-a6a3-41f3-8b28-17b3d595d8d7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/loop/ForLoop_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/loop/ForLoop_2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loop/ForLoop_3.py" beforeDir="false" afterPath="$PROJECT_DIR$/loop/ForLoop_3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loop/ForLoop_4.py" beforeDir="false" afterPath="$PROJECT_DIR$/loop/ForLoop_4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loop/Loop_on_the_list_PythonStyle.py" beforeDir="false" afterPath="$PROJECT_DIR$/loop/Loop_on_the_list_PythonStyle.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,7 +48,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.ForLoop_3">
+  <component name="RunManager" selected="Python.test">
     <configuration name="ForLoop_2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pythonprograms" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -91,7 +91,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="LibraryFunctions_2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="ForLoop_4" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pythonprograms" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -99,11 +99,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/library_functions" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/loop" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/library_functions/LibraryFunctions_2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/loop/ForLoop_4.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -156,11 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.ForLoop_3" />
         <item itemvalue="Python.test" />
+        <item itemvalue="Python.ForLoop_4" />
+        <item itemvalue="Python.ForLoop_3" />
         <item itemvalue="Python.ForLoop_2" />
         <item itemvalue="Python.List_1" />
-        <item itemvalue="Python.LibraryFunctions_2" />
       </list>
     </recent_temporary>
   </component>
