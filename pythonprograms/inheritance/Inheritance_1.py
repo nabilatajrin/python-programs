@@ -1,6 +1,3 @@
-from polymorphism.Polymorphism_1 import Cat
-
-
 class Calculator:
 
     def set(self, a, b):
@@ -9,7 +6,6 @@ class Calculator:
 
     def add(self):
         return self.a + self.b
-
 
 #inheritted class Calculator here
 class NewCalculator(Calculator):

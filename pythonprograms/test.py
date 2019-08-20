@@ -1,8 +1,9 @@
-def squar(x):
-    return x * x
+for x in range(2, 10):
+    isprime = 'yes'
 
-def cube(x):
-    return x * x * x
+    for i in range(2, x):
+        if x % i == 0:
+            isprime = 'no'
 
-print(squar(3))
-print(cube(2))
+    if isprime == 'yes':
+        print(x)
