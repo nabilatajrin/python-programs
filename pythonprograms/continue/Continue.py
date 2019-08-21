@@ -8,6 +8,4 @@ for i in range(1, 10):
     sum = sum + i
     print("sum = ", sum)
 
-print(sum)
-
-print(1+3+5+7+9)
+print('Total:', sum)
