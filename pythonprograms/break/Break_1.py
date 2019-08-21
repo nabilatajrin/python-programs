@@ -1,3 +1,4 @@
+#find out if any specific fruit exist in the list
 fruits = ["apple", "orange", "banana", "jambura",
           "mango", "cherry"]
 

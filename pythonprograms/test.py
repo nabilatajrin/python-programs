@@ -1,4 +1,14 @@
-fruits = ['aple', 'orange', 'banana', 'tango']
+fruits = ['aple', 'orange', 'banana', 'tango', 'jambura']
+
+found = 'no'
 
 for fruit in fruits:
-    print(fruit)
+    if fruit == 'jambura':
+        found = 'yes'
+        print('found it!')
+        break
+
+if found == 'yes':
+    print('we have jambura!')
+else:
+    print('sorry')
