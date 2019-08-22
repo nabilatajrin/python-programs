@@ -2,7 +2,7 @@
 def is_prime(x):
     isprime = "yes"
 
-    for i in range(2, x): #should divide by 1 since all digits/numbers are divisible by 1, should starts from 2
+    for i in range(2, x): #should be divide by 1 since all digits/numbers are divisible by 1, should starts from 2
         if x % i == 0:
             isprime = "no"
 

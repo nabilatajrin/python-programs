@@ -1,8 +1,8 @@
-sum = 0
+def squar(x):
+    return x**2
 
-for i in range(1, 10):
-    if i % 2 == 0:
-        print('i:', i)
+def cube(x):
+    return x**3
 
-    sum = sum + i
-
+print(squar(3))
+print(cube(3))

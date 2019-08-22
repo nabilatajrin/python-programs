@@ -1,5 +1,6 @@
 today = "friday"
 
+#elif
 if today == "friday":
     print ("I am going to be a sleepy baby today")
 elif today == "monday":

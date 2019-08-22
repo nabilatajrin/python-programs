@@ -3,9 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="430b3424-a6a3-41f3-8b28-17b3d595d8d7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/break/Break_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/break/Break_2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/break/Break_3.py" beforeDir="false" afterPath="$PROJECT_DIR$/break/Break_3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/continue/Continue.py" beforeDir="false" afterPath="$PROJECT_DIR$/continue/Continue.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controlflow/ControlFlow_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/controlflow/ControlFlow_2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/function/Function_3.py" beforeDir="false" afterPath="$PROJECT_DIR$/function/Function_3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/function/Functions_of_functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/function/Functions_of_functions.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -50,7 +50,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Continue">
+  <component name="RunManager" selected="Python.test">
     <configuration name="Continue" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pythonprograms" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -158,8 +158,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Continue" />
         <item itemvalue="Python.test" />
+        <item itemvalue="Python.Continue" />
         <item itemvalue="Python.ForLoop_4" />
         <item itemvalue="Python.ForLoop_3" />
         <item itemvalue="Python.ForLoop_2" />
