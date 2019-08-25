@@ -3,7 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="430b3424-a6a3-41f3-8b28-17b3d595d8d7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/variable/Variable_3.py" beforeDir="false" afterPath="$PROJECT_DIR$/variable/Variable_3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recursion/Recursion_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/recursion/Recursion_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recursion/Recursion_greatestCommonDivisor.py" beforeDir="false" afterPath="$PROJECT_DIR$/recursion/Recursion_greatestCommonDivisor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recursion/Recursion_of_GCD.py" beforeDir="false" afterPath="$PROJECT_DIR$/recursion/Recursion_of_GCD.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,7 +50,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Variable_3">
+  <component name="RunManager" selected="Python.test">
     <configuration name="Continue" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pythonprograms" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -69,7 +72,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ForLoop_4" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Recursion_1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pythonprograms" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -77,11 +80,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/loop" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/recursion" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/loop/ForLoop_4.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/recursion/Recursion_1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -155,11 +158,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.Recursion_1" />
         <item itemvalue="Python.Variable_3" />
         <item itemvalue="Python.Variable_2" />
-        <item itemvalue="Python.test" />
         <item itemvalue="Python.Continue" />
-        <item itemvalue="Python.ForLoop_4" />
       </list>
     </recent_temporary>
   </component>
@@ -199,27 +202,27 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/recursion/Recursion_1.py</url>
-          <line>4</line>
+          <line>5</line>
           <option name="timeStamp" value="23" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/recursion/Recursion_greatestCommonDivisor.py</url>
-          <line>3</line>
+          <line>4</line>
           <option name="timeStamp" value="27" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/recursion/Recursion_greatestCommonDivisor.py</url>
-          <line>4</line>
+          <line>5</line>
           <option name="timeStamp" value="28" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/recursion/Recursion_greatestCommonDivisor.py</url>
-          <line>5</line>
+          <line>6</line>
           <option name="timeStamp" value="30" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/recursion/Recursion_greatestCommonDivisor.py</url>
-          <line>6</line>
+          <line>7</line>
           <option name="timeStamp" value="31" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">

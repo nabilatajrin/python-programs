@@ -1,3 +1,4 @@
+#find out greatest common divisor
 a = 33
 b = 12
 

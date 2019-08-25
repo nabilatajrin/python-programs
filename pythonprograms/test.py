@@ -1,8 +1,7 @@
-def squar(x):
-    return x**2
+def factorial(x):
+    if x == 1:
+        return 1
+    else:
+        return x * factorial(x-1)
 
-def cube(x):
-    return x**3
-
-print(squar(3))
-print(cube(3))
+print(factorial(5))

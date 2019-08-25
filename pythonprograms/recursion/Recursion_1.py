@@ -1,3 +1,4 @@
+#find out factorial of 5
 def factorial(x):
     if x == 1:
         return 1
@@ -6,4 +7,5 @@ def factorial(x):
         #return factorial(x), this doesn't work
 
 print (factorial(5))
+
 #print(5*4*3*2*1)

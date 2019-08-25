@@ -1,4 +1,4 @@
-#greatest common divisor in recursion
+#greatest common divisor through recursion
 def gcd(a, b):
     if b == 0:
         return a
