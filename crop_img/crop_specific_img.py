@@ -1,6 +1,5 @@
 from PIL import Image
 
-
 def main():
     try:
         # Relative Path
@@ -12,7 +11,7 @@ def main():
         img = img.crop(area)
 
         # Saved in the same relative location
-        img.save("cropped_picture1.jpg")
+        img.save("cropped_picture.jpg")
 
     except IOError:
         pass

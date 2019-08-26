@@ -1,19 +1,24 @@
 import os
+from PIL import Image
 
-# Function to move files
 def main():
-
     src = '/media/iit/R a i n/2019/ML/pythonprojects/crop_img/src/'
     dst = '/media/iit/R a i n/2019/ML/pythonprojects/crop_img/dst/'
 
     for filename in os.listdir(src):
         print(filename)
 
-        srcFolder = src + '/' + filename
-        dstFolder = dst + filename
+        try:
+            img = Image.open(filename)
+            width, height = img.size
 
-        # move all the files
-        os.rename(srcFolder, dstFolder)
+            area = (0, 0, width / 2, height / 2)
+            img = img.crop(area)
+
+            img.save(dst + filename + '.jpg')
+
+        except IOError:
+            pass
 
 # Driver Code
 if __name__ == '__main__':
