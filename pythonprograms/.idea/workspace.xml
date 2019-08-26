@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="430b3424-a6a3-41f3-8b28-17b3d595d8d7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../crop_img/Main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crop_img/crop_specific_img.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recursion/Recursion_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/recursion/Recursion_1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recursion/Recursion_greatestCommonDivisor.py" beforeDir="false" afterPath="$PROJECT_DIR$/recursion/Recursion_greatestCommonDivisor.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recursion/Recursion_of_GCD.py" beforeDir="false" afterPath="$PROJECT_DIR$/recursion/Recursion_of_GCD.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -50,7 +48,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.test">
+  <component name="RunManager" selected="Python.Recursion_1">
     <configuration name="Continue" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pythonprograms" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -158,8 +156,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.test" />
         <item itemvalue="Python.Recursion_1" />
+        <item itemvalue="Python.test" />
         <item itemvalue="Python.Variable_3" />
         <item itemvalue="Python.Variable_2" />
         <item itemvalue="Python.Continue" />
