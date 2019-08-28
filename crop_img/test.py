@@ -1,34 +1,40 @@
-import csv
 import os
 from PIL import Image
-
+import csv
 
 def main():
     src = '/media/iit/R a i n/2019/ML/pythonprojects/crop_img/src/'
-    dst = '/media/iit/R a i n/2019/ML/pythonprojects/crop_img/dst/'
+    dst = '/media/iit/R a i n/2019/ML/pythonprojects/crop_img/dst/test/'
 
-    try:
-        for filename in os.listdir(src):
-            print(filename)
+    for filename in os.listdir(src):
+        try:
+            file = open(src + "Uniliver-export.csv".format(filename), "r")
+            reader = csv.reader(file)
+            for line in reader:
+                if (line[1] == 'xmin'):
+                    pass
+                else:
+                    left_x = float(line[1])
+                    top_y = float(line[2])
+                    right_x = float(line[3])
+                    bottom_y = float(line[4])
+                    source_file_name = os.path.splitext(line[0])[0]
+                    open_file = line[0]
+                    tag_name = line[5]
 
-            # Relative Path
-            img = Image.open("Laabher_Bazar_07-08-2019_1559_0010.jpg")
-            # img = Image.open(filename)
-            width, height = img.size
+                    img = Image.open(src + filename)
 
-            # area = (0, 0, width / 2, height / 2)
-            area = (45.5, 580.6878980892, 160.7941176471, 640.076433121)
-            img = img.crop(area)
+                    print(left_x, top_y, right_x, bottom_y)
 
-            # Saved in the same relative location
-            img.save("cropped_picture2.jpg")
+                    area = (left_x, top_y, right_x, bottom_y)
+                    img = img.crop((area))
+                    img.save(dst + line[1] + line[2] + filename)
 
+                    #img.save(dst + filename + '_cropped.jpg'), <source_file_name>__<x1_y1>__<tag_name>.png
+                    #new_name = source_file_name + '__' + left_x + '_' + top_y + '__' + tag_name
+                    #img.save(dst +  + new_name + '.png')
+        except IOError:
+            pass
 
-
-
-    except IOError:
-        pass
-
-
-if __name__ == "__main__":
+if __name__ == '__main__':
     main()

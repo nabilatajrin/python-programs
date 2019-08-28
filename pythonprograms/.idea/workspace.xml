@@ -2,9 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="430b3424-a6a3-41f3-8b28-17b3d595d8d7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../crop_img/Main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../crop_img/crop_specific_img.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crop_img/dst/cropped_Laabher_Bazar_07-08-2019_1559_0016.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crop_img/dst/cropped_Laabher_Bazar_07-08-2019_1559_0017.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crop_img/dst/cropped_Laabher_Bazar_07-08-2019_1601_0001.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crop_img/dst/cropped_Laabher_Bazar_07-08-2019_1601_0002.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crop_img/dst/cropped_Laabher_Bazar_07-08-2019_1601_0003.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crop_img/dst/cropped_Laabher_Bazar_07-08-2019_1601_0004.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crop_img/dst/cropped_Laabher_Bazar_07-08-2019_1601_0005.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crop_img/string_to_float.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crop_img/.~lock.Uniliver-export.csv#" beforeDir="false" afterPath="$PROJECT_DIR$/../crop_img/.~lock.Uniliver-export.csv#" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crop_img/crop_all_img_with_csv_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/../crop_img/crop_all_img_with_csv_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crop_img/dst/Laabher_Bazar_07-08-2019_1559_0016.jpg_cropped.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crop_img/dst/Laabher_Bazar_07-08-2019_1559_0017.jpg_cropped.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crop_img/dst/Laabher_Bazar_07-08-2019_1601_0001.jpg_cropped.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crop_img/dst/Laabher_Bazar_07-08-2019_1601_0002.jpg_cropped.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crop_img/dst/Laabher_Bazar_07-08-2019_1601_0003.jpg_cropped.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crop_img/dst/Laabher_Bazar_07-08-2019_1601_0004.jpg_cropped.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crop_img/dst/Laabher_Bazar_07-08-2019_1601_0005.jpg_cropped.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crop_img/read_csv_file.py" beforeDir="false" afterPath="$PROJECT_DIR$/../crop_img/read_csv_file.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crop_img/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../crop_img/test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loop/ForLoop_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/loop/ForLoop_2.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -48,8 +66,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Recursion_1">
-    <configuration name="Continue" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.ForLoop_2">
+    <configuration name="ForLoop_2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pythonprograms" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -57,11 +75,74 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/continue" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/loop" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/continue/Continue.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/loop/ForLoop_2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ForLoop_3" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="pythonprograms" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/loop" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/loop/ForLoop_3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ForLoop_4" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="pythonprograms" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/loop" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/loop/ForLoop_4.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Loop_on_the_list_PythonStyle" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="pythonprograms" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/loop" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/loop/Loop_on_the_list_PythonStyle.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -91,76 +172,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Variable_2" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="pythonprograms" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/variable" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/variable/Variable_2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Variable_3" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="pythonprograms" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/variable" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/variable/Variable_3.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="pythonprograms" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.ForLoop_2" />
+        <item itemvalue="Python.Loop_on_the_list_PythonStyle" />
+        <item itemvalue="Python.ForLoop_4" />
+        <item itemvalue="Python.ForLoop_3" />
         <item itemvalue="Python.Recursion_1" />
-        <item itemvalue="Python.test" />
-        <item itemvalue="Python.Variable_3" />
-        <item itemvalue="Python.Variable_2" />
-        <item itemvalue="Python.Continue" />
       </list>
     </recent_temporary>
   </component>

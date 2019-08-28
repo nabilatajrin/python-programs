@@ -4,31 +4,36 @@ import csv
 
 def main():
     src = '/media/iit/R a i n/2019/ML/pythonprojects/crop_img/src/'
-    dst = '/media/iit/R a i n/2019/ML/pythonprojects/crop_img/dst/'
+    dst = '/media/iit/R a i n/2019/ML/pythonprojects/crop_img/dst/test/'
 
     for filename in os.listdir(src):
-        print(filename)
-
         try:
             img = Image.open(src + filename)
-            print("#####", img)
-            width, height = img.size
-
             file = open(src + "Uniliver-export.csv".format(filename), "r")
             reader = csv.reader(file)
 
             for line in reader:
-                t = line[0], line[1], line[2], line[3], line[4], line[5]
-                print(t)
-                area = (line[1], line[2], line[3], height / 2)
-                img = img.crop(area)
+                if (line[1] == 'xmin'):
+                    pass
+                elif (filename == line[0]):
+                    print('file found')
+                    left_x = float(line[1])
+                    top_y = float(line[2])
+                    right_x = float(line[3])
+                    bottom_y = float(line[4])
+                    source_file_name = os.path.splitext(line[0])[0]
+                    tag_name = line[5]
 
-                img.save(dst + filename + '_cropped.jpg')
+                    print(left_x, top_y, right_x, bottom_y)
 
+                    area = (left_x, top_y, right_x, bottom_y)
+                    img = img.crop(area)
+
+                    #img.save(dst + filename + '_cropped.jpg'), <source_file_name>__<x1_y1>__<tag_name>.png
+                    new_name = source_file_name + '__' + line[1] + '_' + line[2] + '__' + tag_name
+                    img.save(dst + new_name + '.png')
         except IOError:
             pass
 
-# Driver Code
 if __name__ == '__main__':
-    # Calling main() function
     main()
