@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="430b3424-a6a3-41f3-8b28-17b3d595d8d7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/intro/Comments.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interactive/formatTest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/intro/printTest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/intro/printTest2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,7 +49,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Comments">
+  <component name="RunManager" selected="Python.trippleQuotes">
     <configuration name="Comments" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pythonprograms" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -68,7 +71,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ForLoop_2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="formatTest" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pythonprograms" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -76,11 +79,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/loop" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/interactive" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/loop/ForLoop_2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/interactive/formatTest.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -89,7 +92,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ForLoop_3" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="printTest" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pythonprograms" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -97,11 +100,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/loop" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/intro" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/loop/ForLoop_3.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/intro/printTest.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -110,7 +113,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ForLoop_4" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="printTest2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pythonprograms" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -118,11 +121,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/loop" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/intro" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/loop/ForLoop_4.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/intro/printTest2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -131,7 +134,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Loop_on_the_list_PythonStyle" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="trippleQuotes" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pythonprograms" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -139,11 +142,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/loop" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/interactive" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/loop/Loop_on_the_list_PythonStyle.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/interactive/trippleQuotes.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -154,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.trippleQuotes" />
+        <item itemvalue="Python.printTest2" />
+        <item itemvalue="Python.formatTest" />
+        <item itemvalue="Python.printTest" />
         <item itemvalue="Python.Comments" />
-        <item itemvalue="Python.ForLoop_2" />
-        <item itemvalue="Python.Loop_on_the_list_PythonStyle" />
-        <item itemvalue="Python.ForLoop_4" />
-        <item itemvalue="Python.ForLoop_3" />
       </list>
     </recent_temporary>
   </component>
