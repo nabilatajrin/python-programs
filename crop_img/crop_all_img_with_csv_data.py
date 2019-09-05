@@ -9,7 +9,7 @@ def main():
     for filename in os.listdir(src):
         try:
             img = Image.open(src + filename)
-            file = open(src + "Uniliver-export.csv".format(filename), "r")
+            file = open(src + "Unilever-export.csv".format(filename), "r")
             reader = csv.reader(file)
 
             for line in reader:
