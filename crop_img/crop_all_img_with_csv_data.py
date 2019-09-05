@@ -1,6 +1,6 @@
 import os
-from PIL import Image
 import csv
+from PIL import Image
 
 def main():
     src = '/media/iit/R a i n/2019/ML/pythonprojects/crop_img/src/'
