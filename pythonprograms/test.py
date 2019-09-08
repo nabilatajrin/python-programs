@@ -1,7 +1,1 @@
-def factorial(x):
-    if x == 1:
-        return 1
-    else:
-        return x * factorial(x-1)
-
-print(factorial(5))
+#study: learn py in 1 day. 08.09.2019, pg:

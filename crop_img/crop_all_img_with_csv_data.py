@@ -32,7 +32,7 @@ def main():
                     #img.save(dst + filename + '_cropped.jpg'), <source_file_name>__<x1_y1>__<tag_name>.png
                     new_name = source_file_name + '__' + line[1] + '_' + line[2] + '__' + tag_name
                     img.save(dst + new_name + '.png')
-                    
+
         except IOError:
             pass
 
