@@ -1,1 +1,1 @@
-#study: learn py in 1 day. 08.09.2019, pg:
+#study: learn py in 1 day. 08.09.2019, pg: 53

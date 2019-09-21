@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 filename = "images"
 
 # open file to read
-with open("Uniliver-export.csv".format(filename), 'r') as csvfile:
+with open("test.csv".format(filename), 'r') as csvfile:
     reader = csv.reader(csvfile)
     # pop header row (1st row in csv)
     header = next(reader)

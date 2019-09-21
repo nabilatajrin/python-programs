@@ -3,7 +3,7 @@ import csv
 path = '/media/iit/R a i n/2019/ML/pythonprojects/crop_img/'
 filename = "images"
 
-file = open( path + "Uniliver-export.csv".format(filename), "r")
+file = open( path + "test.csv".format(filename), "r")
 reader = csv.reader(file)
 
 for line in reader:

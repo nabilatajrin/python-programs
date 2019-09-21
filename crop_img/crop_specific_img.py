@@ -3,7 +3,7 @@ from PIL import Image
 def main():
     try:
         # Relative Path
-        img = Image.open("Laabher_Bazar_07-08-2019_1601_0005.jpg")
+        img = Image.open("img.jpg")
         width, height = img.size
 
         area = (0, 0, width / 2, height / 2)
