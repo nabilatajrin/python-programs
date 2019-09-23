@@ -4,7 +4,6 @@ print(f)
 #re-declaring the variable works
 f = 'abc'
 print(f)
-del f
 
 #ERROR: variables of different types cannot be combined
 #err:print("This is a string" + 123)
@@ -20,4 +19,4 @@ someFunction()
 print(f) #outside of the function
 
 del f
-print(f)
+print("after del:", f)
