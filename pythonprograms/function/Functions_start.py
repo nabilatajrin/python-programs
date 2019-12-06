@@ -8,7 +8,8 @@ if __name__ == "__main__":
     main()
 
 #define a basic function
-
+def func1():
+    print("basic function")
 
 #function that takes arguments
 
