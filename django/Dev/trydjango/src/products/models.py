@@ -1,3 +1,10 @@
 from django.db import models
 
-# Create your models here.
+#create your models here
+class products():
+    title = models.TextField()
+    description = models.TextField()
+    price = models.TextField()
+    summary = models.TextField(default="This is cool!")
+
+
