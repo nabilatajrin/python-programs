@@ -1,2 +1,2 @@
 # python
-A list of python programs.
+This repository contains small-scale applications using python.
