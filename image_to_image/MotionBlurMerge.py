@@ -16,24 +16,18 @@ def image_to_image():
             cv2.imshow('Original', img)
             size = 15
             #img.show(item)
-
             # generating the kernel
             kernel_motion_blur = np.zeros((size, size))
             kernel_motion_blur[int((size - 1) / 2), :] = np.ones(size)
             kernel_motion_blur = kernel_motion_blur / size
-
             # applying the kernel to the input image
             output = cv2.filter2D(img, -1, kernel_motion_blur)
-
             cv2.imshow('Motion Blur', output)
             cv2.waitKey(0)
-
             file, e = os.path.splitext(dstPath + item)
             #img_blur = img.filter(PIL.ImageFilter.EMBOSS)
-
             img_Resize = img.resize((256, 256), Image.ANTIALIAS)
             blur_img_resize = kernel_motion_blur.resize((256, 256), Image.ANTIALIAS)
-
             img_Resize.save(file + '.jpg', 'JPEG', quality = 90)
             blur_img_resize.save(file + '_blur.jpg', 'JPEG', quality = 100)
 
@@ -47,9 +41,7 @@ images = list(map(Image.open, [(dstPath + i) for i in dirs2]))
 def mergeImage():
     total_width = 512
     max_height = 256
-
     new_im = Image.new('RGB', (total_width, max_height))
-
     x_offset = 0
     i = 0
     j = 0
