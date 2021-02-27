@@ -2,7 +2,6 @@ import os, zipfile
 
 dir_name = '/media/iit/R a i n/2019/Intelligent Machines Ltd/face-propagation/dummy-data-set/colorferet/colorferet/dvd1/data/images/test'
 extension = ".bz2"
-
 os.chdir(dir_name) # change directory from working dir to dir with files
 
 for item in os.listdir(dir_name): # loop through items in dir
