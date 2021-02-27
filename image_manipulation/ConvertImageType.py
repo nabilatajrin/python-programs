@@ -8,13 +8,11 @@ dstPath = '/media/iit/R a i n/2019/ML/pythonprojects/image_manipulation/pngs/'
 def convertImage():
     for filename in os.listdir(srcPath):
         print(filename)
-
         if filename.endswith('.ppm'):
             print(filename)
             convertImage = Image.open(filename)
             # convertImage.show(filename)
             # convertImage.save('test.png')
-
             #convert images to .png and save it to different folder
             fn, fext = os.path.splitext(filename)
             print(fext)
