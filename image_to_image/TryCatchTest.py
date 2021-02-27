@@ -22,7 +22,6 @@ def image_to_image():
                 print(item)
                 img = Image.open(srcPath + item)
                 # img.show(item)
-
                 file, e = os.path.splitext(dstPath + item)
                 img_blur = img.filter(PIL.ImageFilter.BoxBlur(10))
                 img_Resize = img.resize((256, 256), Image.ANTIALIAS)
@@ -34,20 +33,16 @@ def image_to_image():
             #pass
 
 #image_to_image()
-
 dstPath = "/media/iit/Transcend/nabila/data-set/image_to_image/box_blur/"
 mrgPath = "/media/iit/Transcend/nabila/data-set/image_to_image/original_and_box_blur_mrg/"
 dirs2 = os.listdir(dstPath)
 images = list(map(Image.open, [(dstPath + i) for i in dirs2]))
 
-
 def mergeImage():
     count = 1
     total_width = 512
     max_height = 256
-
     new_im = Image.new('RGB', (total_width, max_height))
-
     x_offset = 0
     i = 0
     j = 0
@@ -55,7 +50,6 @@ def mergeImage():
     for im in images:
         print(count)
         count += 1
-
         new_im.paste(im, (x_offset, 0))
         x_offset += im.size[0]
         i += 1
