@@ -1,0 +1,35 @@
+#Problem Solution
+1. Take the number of elements to be stored in the list as input.
+2. Use a for loop to input elements into the list.
+3. Calculate the total sum of elements in the list.
+4. Divide the sum by total number of elements in the list.
+5. Exit.
+
+
+# Program/Source Code
+n=int(input("Enter the number of elements to be inserted: "))
+a=[]
+for i in range(0,n):
+    elem=int(input("Enter element: "))
+    a.append(elem)
+avg=sum(a)/n
+print("Average of elements in the list",round(avg,2))
+
+
+#Runtime Test Cases
+ 
+Case 1:
+Enter the number of elements to be inserted: 3
+Enter element: 23
+Enter element: 45
+Enter element: 56
+Average of elements in the list 41.33
+ 
+Case 2:
+Enter the number of elements to be inserted: 5
+Enter element: 12
+Enter element: 24
+Enter element: 33
+Enter element: 25
+Enter element: 18
+Average of elements in the list 22.4
