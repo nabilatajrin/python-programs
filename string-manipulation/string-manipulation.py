@@ -88,10 +88,9 @@ print('Hello, my name is %s %s' % (x, y))
 print('Hello, my name is {} {}'.format(x, y))
 print('Hello, my name is {name} {age}'.format(name = x, age = y)) #or, print(f'Hello, my name is {x} {y}')
 
-
-
-
-
-
-
-
+#count the total number of anything in a list
+a = [10, 1, 12, 42, 51, 1010, 124, 10, 23, 10, 42, 52, 3, 10]
+b = a.count(10)
+c = a.count(10) * 10
+print(b)
+print(c)
