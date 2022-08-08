@@ -46,6 +46,47 @@ print('upper: ', text.upper())
 print('lower: ', text.lower())
 print('title: ', text.title())
 
+#find a word
+y = text.find('hello')
+z = text.find('years')
+print(y) #will return positive any numbers when found
+print(z)
+
+if y>= 0:
+    print('match')
+else:
+    print('not match')
+
+#list/ array
+z = ['apple','pear','banana']
+#y = z.find('apple') /find doesn't work for list
+y = z.index('apple')
+print(y)
+try:
+    v = z.index('apples') #not found and gives error. so use try, catch
+except ValueError:
+    print('There is an error')
+
+x = 'Hello, Brishty'
+y = x.find('Bristy', 6, 12)
+print(y)
+
+#count words
+x = 'How many apples are there in the apple cart?'
+y = x.count('apple')
+print(y)
+
+#replace
+z = x.replace('apple','pear')
+print(z)
+
+#variable
+x = 'Zander'
+y = '18'
+print('Hello, my name is %s' % x) #for above py 3.5: print(f'Hello,...' % x)
+print('Hello, my name is %s %s' % (x, y))
+print('Hello, my name is {} {}'.format(x, y))
+print('Hello, my name is {name} {age}'.format(name = x, age = y)) #or, print(f'Hello, my name is {x} {y}')
 
 
 
