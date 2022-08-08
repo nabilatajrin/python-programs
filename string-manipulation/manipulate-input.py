@@ -10,3 +10,10 @@ print(z2)
 print(z3)
 print(z4)
 print(('*') * z4 + z3)
+
+a = input('Enter your first name: ')
+b = input('Enter your surname: ')
+
+a = a[:1]
+b = b[:1]
+print((a + b).upper())
