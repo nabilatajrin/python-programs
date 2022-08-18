@@ -1,15 +1,21 @@
 class Person:
-  def __init__(self, name, age):
-    self.name = name
-    self.age = age
+  def __init__(self, fname, lname):
+    self.firstname = fname
+    self.lastname = lname
+
+  def printname(self):
+    print(self.firstname, self.lastname)
+
+  # Use the Person class to create an object, and then execute the printname method:
 
   def myfunc(self):
-    print("Hello my name is " + self.name)
+    print("Hello my name is " + self.firstname + ' ' + self.lastname)
 
-p1 = Person("John", 36)
+x = Person("John", "Doe")
+x.printname()
 
-print(p1.name)
-print(p1.age)
-print(p1.name, p1.age)
+print(x.firstname)
+print(x.lastname)
+print(x.firstname, x.lastname)
 
-p1.myfunc()
+x.myfunc()
