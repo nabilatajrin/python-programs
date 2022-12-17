@@ -10,7 +10,7 @@ print(r)
 
 
 output:
-    letter_index   letter         frequency
+           letter_index  letter  frequency
     0              1      A       7.38
     1              2      B       1.09
     2              3      C       2.46
