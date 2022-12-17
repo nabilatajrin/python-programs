@@ -12,4 +12,4 @@ plate = 'FRQ****'
 lookup_plate(plate)
 
 # Call lookup_plate() with the keyword argument for color
-lookup_plate(plate, color='blue')
+lookup_plate(plate, color='Green')
