@@ -7,4 +7,4 @@ y = "test"
 print('test' <= y)
 
 # Comparison of booleans
-print('True' >= 'False')
+print(True > False)
