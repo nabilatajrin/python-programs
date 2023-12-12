@@ -1,7 +1,7 @@
 # NumPy is imported, seed is set
 
 # Initialize random_walk
-random_walk = [1,4,2,7,5,9,8,7]
+random_walk = [0]
 
 # Complete the for loop
 for x in range(100) :
