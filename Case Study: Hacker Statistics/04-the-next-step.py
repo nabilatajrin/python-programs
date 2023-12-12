@@ -23,3 +23,4 @@ for x in range(100) :
     random_walk.append(step)
 
 # Print random_walk
+print(random_walk)
