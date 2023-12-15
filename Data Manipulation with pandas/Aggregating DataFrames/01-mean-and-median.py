@@ -5,7 +5,7 @@ print(sales.head())
 print(sales.info())
 
 # Print the mean of weekly_sales
-print(sales.mean())
+print(sales['weekly_sales'].mean())
 
 # Print the median of weekly_sales
-print(sales.median())
+print(sales['weekly_sales'].median())
